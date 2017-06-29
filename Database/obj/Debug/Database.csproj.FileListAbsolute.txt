@@ -1,0 +1,96 @@
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\db.sdf
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\Database.dll
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\Database.pdb
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\Model.dll
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\System.Data.SqlServerCe.dll
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\bin\Debug\Model.pdb
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\obj\Debug\ResolveAssemblyReference.cache
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\obj\Debug\Database.dll
+D:\windows_mobile_projects\NaplataBusDubrovnik\Database\obj\Debug\Database.pdb
+C:\Samsung-display\NaplataBusDubrovnik\Database\bin\Debug\db.sdf
+C:\Samsung-display\NaplataBusDubrovnik\Database\bin\Debug\Database.dll
+C:\Samsung-display\NaplataBusDubrovnik\Database\bin\Debug\Database.pdb
+C:\Samsung-display\NaplataBusDubrovnik\Database\bin\Debug\Model.dll
+C:\Samsung-display\NaplataBusDubrovnik\Database\bin\Debug\Model.pdb
+C:\Samsung-display\NaplataBusDubrovnik\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Samsung-display\NaplataBusDubrovnik\Database\obj\Debug\Database.dll
+C:\Samsung-display\NaplataBusDubrovnik\Database\obj\Debug\Database.pdb
+D:\NaplataBusDubrovnik\Database\bin\Debug\db.sdf
+D:\NaplataBusDubrovnik\Database\bin\Debug\Database.dll
+D:\NaplataBusDubrovnik\Database\bin\Debug\Database.pdb
+D:\NaplataBusDubrovnik\Database\bin\Debug\Model.dll
+D:\NaplataBusDubrovnik\Database\bin\Debug\System.Data.SqlServerCe.dll
+D:\NaplataBusDubrovnik\Database\bin\Debug\Model.pdb
+D:\NaplataBusDubrovnik\Database\obj\Debug\ResolveAssemblyReference.cache
+D:\NaplataBusDubrovnik\Database\obj\Debug\Database.dll
+D:\NaplataBusDubrovnik\Database\obj\Debug\Database.pdb
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\db.sdf
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\Database.dll
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\Database.pdb
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\Model.dll
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\System.Data.SqlServerCe.dll
+E:\NaplataBusDubrovnik - 19-04-2014\Database\bin\Debug\Model.pdb
+E:\NaplataBusDubrovnik - 19-04-2014\Database\obj\Debug\ResolveAssemblyReference.cache
+E:\NaplataBusDubrovnik - 19-04-2014\Database\obj\Debug\Database.dll
+E:\NaplataBusDubrovnik - 19-04-2014\Database\obj\Debug\Database.pdb
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\db.sdf
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\Database.dll
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\Database.pdb
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\Model.dll
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\System.Data.SqlServerCe.dll
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\bin\Debug\Model.pdb
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\obj\Debug\ResolveAssemblyReference.cache
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\obj\Debug\Database.dll
+E:\NaplataBusDubrovnik - 19-04-2014 - promijenjeno 1.7.2014\Database\obj\Debug\Database.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\db.sdf
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\Database.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\Database.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\Model.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\System.Data.SqlServerCe.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\bin\Debug\Model.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\obj\Debug\Database.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 10.7.2014\Database\obj\Debug\Database.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\db.sdf
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\System.Data.SqlServerCe.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.dll
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.pdb
+C:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\obj\Database1.sdf
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\db.sdf
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\obj\Database1.sdf
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.dll
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.pdb
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.dll
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.pdb
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.dll
+C:\Users\gost\Downloads\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.pdb
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\db.sdf
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\obj\Database1.sdf
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.dll
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Database.pdb
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.dll
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Model.pdb
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\ResolveAssemblyReference.cache
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.dll
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\obj\Debug\Database.pdb
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\System.Data.SqlServerCe.dll
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Logger.dll
+D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Database\bin\Debug\Logger.pdb
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\db.sdf
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\obj\Database1.sdf
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Database.dll
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Database.pdb
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Logger.dll
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\System.Data.SqlServerCe.dll
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\bin\Debug\Logger.pdb
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\Database.dll
+C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\Database.pdb

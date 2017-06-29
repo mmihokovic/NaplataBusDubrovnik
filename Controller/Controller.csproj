@@ -1,0 +1,182 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23A43A53-46DA-4669-9E2A-17B77B45172F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controller</RootNamespace>
+    <AssemblyName>Controller</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>3C41C503-53EF-4c2a-8DD4-A8217CAD115E</PlatformID>
+    <OSVersion>4.20</OSVersion>
+    <DeployDirSuffix>Controller</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Pocket PC 2003</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bluebird.Barcode, Version=1.2.0.1, Culture=neutral, PublicKeyToken=a67a93976d1fcfb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Bluebird.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="InTheHand.Net.Personal, Version=2.3.0.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>third_party\InTheHand.Net.Personal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZebraBluetoothAdapter, Version=1.0.121.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ZebraBluetoothAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="ZebraPlatformUtil, Version=1.0.121.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ZebraPlatformUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="ZSDK_API, Version=1.0.121.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ZSDK_API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="barcode\BarcodeReader.cs" />
+    <Compile Include="barcode\BarcodeReadType.cs" />
+    <Compile Include="barcode\BarcodeType.cs" />
+    <Compile Include="ChargeRegularUserController.cs" />
+    <Compile Include="ChargesController.cs" />
+    <Compile Include="ChargeSubscriberController.cs" />
+    <Compile Include="CounterController.cs" />
+    <Compile Include="Fiskalizacija\CentralniInformacijskiSustav.cs" />
+    <Compile Include="Fiskalizacija\CentralniInformacijskiSustavEventArgs.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\PotpisivanjeCF.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\Razno.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\ServiceStatusEnum.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\TipDokumentaEnum.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\TrustAllCertificatePolicy.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\X509Certificate2CF.cs" />
+    <Compile Include="Fiskalizacija\PopratneFunkcije\XmlDokumenti.cs" />
+    <Compile Include="Fiskalizacija\Schema\FiskalizacijaSchema.designer.cs" />
+    <Compile Include="LoginController.cs" />
+    <Compile Include="printer\IPrinter.cs" />
+    <Compile Include="printer\IPrintObject.cs" />
+    <Compile Include="printer\PalataliParser.cs" />
+    <Compile Include="printer\Printer.cs" />
+    <Compile Include="printer\PrinterDummy.cs" />
+    <Compile Include="printer\Worker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared.cs" />
+    <Compile Include="SubscriberController.cs" />
+    <Compile Include="tickets\CheckInTicket.cs" />
+    <Compile Include="tickets\CheckOutTicket.cs" />
+    <Compile Include="tickets\LogOutTicketPrintable.cs" />
+    <Compile Include="tickets\SubscriberAddTicket.cs" />
+    <Compile Include="tickets\SubscriberCheckInTicket.cs" />
+    <Compile Include="tickets\SubscriberCheckOutTicket.cs" />
+    <Compile Include="UsersController.cs" />
+    <Compile Include="VehicleController.cs" />
+    <Compile Include="Web References\StatusService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{97FC2120-853E-4754-B0E0-FFC3D1D30CEE}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{3F558B4B-E7C9-442A-BB35-5271FE0DFD57}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{D622D0BE-99D1-4E95-9844-9E8669162603}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fiskalizacija\cert.xml" />
+    <None Include="Web References\StatusService\GetStatus.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fiskalizacija\Schema\FiskalizacijaSchema.xsd" />
+    <None Include="Fiskalizacija\Schema\xmldsig-core-schema.xsd" />
+    <None Include="Web References\StatusService\GetStatus.wsdl" />
+    <None Include="Web References\StatusService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://www.fdev.hr/StatusWS/GetStatus.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\StatusService\</RelPath>
+      <UpdateFromURL>https://www.fdev.hr/StatusWS/GetStatus.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
