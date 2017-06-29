@@ -38,8 +38,8 @@ D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Model\b
 D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Model\obj\Debug\ResolveAssemblyReference.cache
 D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Model\obj\Debug\Model.dll
 D:\busevi\NaplataBusDubrovnik - 10.7.2014\NaplataBusDubrovnik - 7.3.2015\Model\obj\Debug\Model.pdb
-C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\bin\Debug\Model.dll
-C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\bin\Debug\Model.pdb
-C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.dll
-C:\Documents and Settings\Administrator\Desktop\NaplataBusDubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.pdb

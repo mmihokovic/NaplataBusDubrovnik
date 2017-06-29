@@ -161,6 +161,40 @@ namespace Controller
             CounterController.IncrementCounter();
         }
 
+        public static void StartCheckOut(string licencePlate)
+        {          
+            if (!Controller.ChargeRegularUserController.HasInternet())
+            {
+                throw new Exception("Uređaj nije spojen na Internet. Računi se ne mogu fiskalizirati.");
+            }
+
+            Vehicle vehicle = VehicleController.GetVehicle(licencePlate);
+            if (vehicle == null)
+            {
+                throw new Exception("Vozilo s oznakom " + licencePlate + " nije prijavljeno prilikom ulaska na parkiralište.");
+            }
+
+            Ticket ticket = Database.Tickets.GetTicket(vehicle.LicencePlates, vehicle.VehicleType, vehicle.CheckedInDate, false);
+            if (ticket == null || ticket.ChargeTicket)
+            {
+                throw new Exception("Vozilo s oznakom " + licencePlate + " nije prijavljeno prilikom ulaska na parking.");
+            }
+            if (ticket.TicketType != "Pojedinačni prijevoz")
+            {
+                throw new Exception("Izlazna karta se naplačuje samo vozilima s pojedinačnom kartom");
+            }
+
+            if (Shared.StartCheckOut != null)
+                Shared.StartCheckOut(new ChargeRegularUserData()
+                {
+                    LicencePlate = licencePlate
+                });
+            else
+            {
+                throw new Exception("StartCheckOut method is null ");
+            }
+        }
+
         public static bool HasInternet()
         {
             if (Shared.TestMode)

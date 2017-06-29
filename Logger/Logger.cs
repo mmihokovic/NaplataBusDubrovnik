@@ -20,5 +20,16 @@ namespace Logger
                 }
             }
         }
+
+        public static void Log(string message)
+        {
+            lock (_lock)
+            {
+                using (StreamWriter writetext = new StreamWriter("Log-LukaDubrovnik-" + DateTime.Now.Year + "-" + DateTime.Now.Month + "-" + DateTime.Now.Day + ".txt", true))
+                {
+                    writetext.WriteLine(String.Format("{0} - {1}", DateTime.Now, message));
+                }
+            }
+        }
     }
 }

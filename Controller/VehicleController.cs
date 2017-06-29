@@ -56,5 +56,10 @@ namespace Controller
             Database.Vehicles.UpdateVehicle(vehicle);
             return vehicle;
         }
+
+        public static Vehicle GetVehicle(string licencePlates)
+        {
+            return Database.Vehicles.GetVehicle(licencePlates);        
+        }
     }
 }

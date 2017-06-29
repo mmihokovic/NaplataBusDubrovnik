@@ -48,8 +48,8 @@ namespace NaplataBusDubrovnik
         {
             try
             {
-                BarcodeReader.barcode.BarcodeReadType.BarcodeType = Controller.barcode.BarcodeType.READ_SUBSCRIBER;
-                BarcodeReader.barcode.BarcodeReader r = new Controller.barcode.BarcodeReader();
+                Controller.barcode.BarcodeReadType.BarcodeType = Controller.barcode.BarcodeType.READ_SUBSCRIBER;
+                Controller.barcode.BarcodeReader r = new Controller.barcode.BarcodeReader();
                 r.Open();
                 r.ToggleTriger();
             }
@@ -87,8 +87,8 @@ namespace NaplataBusDubrovnik
             {
                 if (!Controller.Shared.TestMode)
                 {
-                    BarcodeReader.barcode.BarcodeReadType.BarcodeType = BarcodeReader.barcode.BarcodeType.READ_SUBSCRIBER_TICKET;
-                    BarcodeReader.barcode.BarcodeReader r = new BarcodeReader.barcode.BarcodeReader();
+                    Controller.barcode.BarcodeReadType.BarcodeType = Controller.barcode.BarcodeType.READ_SUBSCRIBER_TICKET;
+                    Controller.barcode.BarcodeReader r = new Controller.barcode.BarcodeReader();
                     r.Open();
                     r.ToggleTriger();
                 }

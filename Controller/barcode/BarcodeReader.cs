@@ -337,7 +337,8 @@ namespace Controller.barcode
                         System.Media.SystemSounds.Beep.Play();
                         try
                         {
-                            ChargeRegularUserController.CheckOut(strBuf.ToString());
+                            Controller.ChargeRegularUserController.StartCheckOut(strBuf.ToString());
+                            //ChargeRegularUserController.CheckOut(strBuf.ToString());
                         }
                         catch (Exception e)
                         {

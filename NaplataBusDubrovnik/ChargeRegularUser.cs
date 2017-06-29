@@ -7,12 +7,12 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Model;
+using Controller;
 
 namespace NaplataBusDubrovnik
 {
     public partial class ChargeRegularUser : Form
-    {       
-
+    {
         public ChargeRegularUser()
         {
             try
@@ -37,6 +37,8 @@ namespace NaplataBusDubrovnik
                 {
                     MessageBox.Show("Uređaj nema vezu s Internetom, računi se ne mogu fiskalizirati");
                 }
+
+                Controller.Shared.StartCheckOut = ChargeRegularUser.StartChargeRegularUser;
             }
             catch (Exception e)
             {
@@ -44,6 +46,12 @@ namespace NaplataBusDubrovnik
                 MessageBox.Show(e.Message);
             }
         }
+
+        public static void StartChargeRegularUser(ChargeRegularUserData data)
+        {
+            // Do something
+            Controller.ChargeRegularUserController.CheckOut(data.LicencePlate);
+        } 
 
         private void VehicleTypeBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -63,14 +71,14 @@ namespace NaplataBusDubrovnik
             {
                 if (!Controller.Shared.TestMode)
                 {
-                    BarcodeReader.barcode.BarcodeReadType.BarcodeType = Controller.barcode.BarcodeType.READ_REGULAR_USER_TICKET;
-                    BarcodeReader.barcode.BarcodeReader r = new Controller.barcode.BarcodeReader();
+                    Controller.barcode.BarcodeReadType.BarcodeType = Controller.barcode.BarcodeType.READ_REGULAR_USER_TICKET;
+                    Controller.barcode.BarcodeReader r = new Controller.barcode.BarcodeReader();
                     r.Open();
                     r.ToggleTriger();
                 }
                 else
                 {
-                    Controller.ChargeRegularUserController.CheckOut("ZG-1234-ST");
+                    Controller.ChargeRegularUserController.StartCheckOut("ZG-1234-ST");
                 }
             }
             catch (Exception ex)

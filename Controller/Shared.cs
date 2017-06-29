@@ -13,6 +13,9 @@ namespace Controller
         public static IPrinter Printer { get; set; }
         public static Worker Worker { get; set; }
 
+        public delegate void MoveDelegate(ChargeRegularUserData o);
+        public static MoveDelegate StartCheckOut;
+
         static Shared()
         {
             TestMode = true;
@@ -28,7 +31,7 @@ namespace Controller
             Worker = new Worker(Printer);
             ThreadStart threadDelegate = new ThreadStart(Worker.Work);
             Thread t = new Thread(threadDelegate);
-            t.Start();
+            t.Start();            
         }
     }
 }
