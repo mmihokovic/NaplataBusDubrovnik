@@ -149,3 +149,22 @@ C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Controller\bin\Debug\Logger.pdb
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Controller\bin\Debug\Model.pdb
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Controller\bin\Debug\Database.pdb
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\db.sdf
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\obj\Database1.sdf
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Controller.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Controller.pdb
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Bluebird.Barcode.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Database.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\InTheHand.Net.Personal.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Logger.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Model.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\ZebraBluetoothAdapter.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\ZebraPlatformUtil.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\ZSDK_API.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\System.Data.SqlServerCe.dll
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Logger.pdb
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Model.pdb
+C:\sources\NaplataBusDubrovnik\Controller\bin\Debug\Database.pdb
+C:\sources\NaplataBusDubrovnik\Controller\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\NaplataBusDubrovnik\Controller\obj\Debug\Controller.dll
+C:\sources\NaplataBusDubrovnik\Controller\obj\Debug\Controller.pdb

@@ -8,3 +8,8 @@ C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Logger\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Logger\obj\Debug\Logger.dll
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Logger\obj\Debug\Logger.pdb
+C:\sources\NaplataBusDubrovnik\Logger\bin\Debug\Logger.dll
+C:\sources\NaplataBusDubrovnik\Logger\bin\Debug\Logger.pdb
+C:\sources\NaplataBusDubrovnik\Logger\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\NaplataBusDubrovnik\Logger\obj\Debug\Logger.dll
+C:\sources\NaplataBusDubrovnik\Logger\obj\Debug\Logger.pdb

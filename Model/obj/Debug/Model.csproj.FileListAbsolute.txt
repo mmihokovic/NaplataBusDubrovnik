@@ -43,3 +43,8 @@ C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.dll
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Model\obj\Debug\Model.pdb
+C:\sources\NaplataBusDubrovnik\Model\bin\Debug\Model.dll
+C:\sources\NaplataBusDubrovnik\Model\bin\Debug\Model.pdb
+C:\sources\NaplataBusDubrovnik\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\NaplataBusDubrovnik\Model\obj\Debug\Model.dll
+C:\sources\NaplataBusDubrovnik\Model\obj\Debug\Model.pdb

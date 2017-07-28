@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdministrationAddSubscriber));
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.menuItem1 = new System.Windows.Forms.MenuItem();
             this.menuItem2 = new System.Windows.Forms.MenuItem();
@@ -47,62 +48,49 @@
             // 
             // menuItem1
             // 
-            this.menuItem1.Text = "Nazad";
+            resources.ApplyResources(this.menuItem1, "menuItem1");
             this.menuItem1.Click += new System.EventHandler(this.menuItem1_Click);
             // 
             // menuItem2
             // 
-            this.menuItem2.Text = "Spremi";
+            resources.ApplyResources(this.menuItem2, "menuItem2");
             this.menuItem2.Click += new System.EventHandler(this.menuItem2_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(25, 184);
+            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 7;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(25, 160);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 20);
-            this.label2.Text = "Pretplata vrijedi do:";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(25, 29);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 20);
-            this.label1.Text = "Pretplatnik s reg. oznakom:";
             // 
             // subscriberBox
             // 
-            this.subscriberBox.Location = new System.Drawing.Point(25, 53);
+            resources.ApplyResources(this.subscriberBox, "subscriberBox");
             this.subscriberBox.Name = "subscriberBox";
-            this.subscriberBox.Size = new System.Drawing.Size(198, 21);
-            this.subscriberBox.TabIndex = 10;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(23, 86);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
-            this.label3.Text = "Vrsta vozila:";
             // 
             // comboBox1
             // 
-            this.comboBox1.Location = new System.Drawing.Point(25, 110);
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(198, 22);
-            this.comboBox1.TabIndex = 12;
             // 
             // AdministrationAddSubscriber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.subscriberBox);
@@ -111,7 +99,6 @@
             this.Controls.Add(this.label1);
             this.Menu = this.mainMenu1;
             this.Name = "AdministrationAddSubscriber";
-            this.Text = "Dodavanje pretplatnika";
             this.ResumeLayout(false);
 
         }
@@ -123,7 +110,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox subscriberBox;
+        public System.Windows.Forms.TextBox subscriberBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
     }

@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Model;
+using Controller;
 
 namespace NaplataBusDubrovnik
 {
@@ -63,12 +64,29 @@ namespace NaplataBusDubrovnik
                     return;
                 }
 
-                Vehicle vehicle = Controller.VehicleController.AddVehicle(licencePlate, comboBox1.Text);
-                Controller.SubscriberController.AddSubscriber(vehicle.LicencePlates, dateTimePicker1.Value);
-                Forms.Administration.Show();
-                Forms.AdministrationSubscribers.Init();
-                this.subscriberBox.Text = "";
-                this.Hide();
+                var dialogResult = MessageBox.Show("Želite li R1 račun ?", "R1", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                if (dialogResult == DialogResult.No)
+                {
+                    Vehicle vehicle = Controller.VehicleController.AddVehicle(licencePlate, comboBox1.Text);
+                    Controller.SubscriberController.AddSubscriber(vehicle.LicencePlates, dateTimePicker1.Value, null);
+                    Forms.Administration.Show();
+                    Forms.AdministrationSubscribers.Init();
+                    this.subscriberBox.Text = "";
+                    this.Hide();
+                }
+                if (dialogResult == DialogResult.Yes)
+                {
+                    Forms.R1Form = new R1Form();
+                    Forms.R1Form.ChargeUserData = new ChargeUserData
+                    {
+                        ChargeSource = ChargeSourceEnum.AddSubscriber,
+                        LicencePlate = licencePlate,
+                        VehicleType = comboBox1.Text,
+                        SubscriptionValidTo = dateTimePicker1.Value
+                    };
+                    Forms.R1Form.Show();
+                    this.Hide();
+                }
             }
             catch (Exception ex)
             {

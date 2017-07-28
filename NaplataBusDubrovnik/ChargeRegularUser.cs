@@ -47,10 +47,22 @@ namespace NaplataBusDubrovnik
             }
         }
 
-        public static void StartChargeRegularUser(ChargeRegularUserData data)
+        public static void StartChargeRegularUser(ChargeUserData data)
         {
             // Do something
-            Controller.ChargeRegularUserController.CheckOut(data.LicencePlate);
+            //Controller.ChargeRegularUserController.CheckOut(data.LicencePlate);
+            var dialogResult = MessageBox.Show("Želite li R1 račun ?", "R1", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            if (dialogResult == DialogResult.No)
+            {
+                Controller.ChargeRegularUserController.CheckOut(data.LicencePlate, null);
+            }
+            if (dialogResult == DialogResult.Yes)
+            {
+                Forms.R1Form = new R1Form();
+                Forms.R1Form.ChargeUserData = data;
+                Forms.R1Form.Show();
+                Forms.ChargeRegularUser.Hide();
+            }
         } 
 
         private void VehicleTypeBox_SelectedIndexChanged(object sender, EventArgs e)

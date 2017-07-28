@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using Controller.printer;
+using Model;
 
 namespace Controller.tickets
 {
@@ -45,9 +46,11 @@ namespace Controller.tickets
         String ZIK;
         int ticketCount;
 
+        public Company company { get; set; }
+
         public SubscriberAddTicket(String licencePlate, String vehicleType, int months, DateTime validTo, 
             decimal charged, decimal chargedTax, decimal chargedBase, 
-            String username, String JIR, String ZIK, int ticketCount)
+            String username, String JIR, String ZIK, int ticketCount, Company company)
         {
             this.licencePlate = licencePlate;
             this.vehicleType = vehicleType;
@@ -60,6 +63,7 @@ namespace Controller.tickets
             this.JIR = JIR;
             this.ZIK = ZIK;
             this.ticketCount = ticketCount;
+            this.company = company;
         }
 
         #region IPrintObject Members
@@ -100,6 +104,18 @@ namespace Controller.tickets
             Controller.Shared.Printer.AddTextLine(JIR, 0, 0, 40, 940);
             Controller.Shared.Printer.AddTextLine("ZIK: ", 0, 3, 40, 980);
             Controller.Shared.Printer.AddTextLine(ZIK, 0, 0, 40, 1020);
+
+            if (company != null)
+            {
+                Controller.Shared.Printer.AddHorizontalLine(0, 1030);
+                Controller.Shared.Printer.AddTextLine("R1 racun za: ", 0, 3, 40, 1060);
+                Controller.Shared.Printer.AddTextLine(company.Name + ",", 0, 3, 40, 1100);
+                Controller.Shared.Printer.AddTextLine(company.Address + (String.IsNullOrEmpty(company.OIB) ? "" : ","), 0, 3, 40, 1140);
+                if (!String.IsNullOrEmpty(company.OIB))
+                {
+                    Controller.Shared.Printer.AddTextLine(company.OIB, 0, 3, 40, 1180);
+                }
+            }
 
             bool error = Controller.Shared.Printer.Print();
 

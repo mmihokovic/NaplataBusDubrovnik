@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Model;
+using Controller;
 
 namespace NaplataBusDubrovnik
 {
@@ -79,8 +80,24 @@ namespace NaplataBusDubrovnik
                 {
                     Subscriber s = Controller.SubscriberController.GetSubscriber(subscriberBox.Text);
                     s.ValidTo = dateTimePicker1.Value;
-                    Controller.SubscriberController.UpdateSubscriber(s);
-                    Init();
+
+                    var dialogResult = MessageBox.Show("Želite li R1 račun ?", "R1", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                    if (dialogResult == DialogResult.No)
+                    {
+                        Controller.SubscriberController.UpdateSubscriber(s, null);
+                        Init();
+                    }
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        Forms.R1Form = new R1Form();
+                        Forms.R1Form.ChargeUserData = new ChargeUserData
+                        {
+                            ChargeSource = ChargeSourceEnum.ChargeSubscriber,
+                            Subscriber = s
+                        };
+                        Forms.R1Form.Show();
+                        this.Hide();
+                    }
                 }
             }
             catch (Exception ex)

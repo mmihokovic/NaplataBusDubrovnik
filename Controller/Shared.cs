@@ -13,7 +13,7 @@ namespace Controller
         public static IPrinter Printer { get; set; }
         public static Worker Worker { get; set; }
 
-        public delegate void MoveDelegate(ChargeRegularUserData o);
+        public delegate void MoveDelegate(ChargeUserData o);
         public static MoveDelegate StartCheckOut;
 
         static Shared()

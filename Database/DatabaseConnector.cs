@@ -16,6 +16,7 @@ namespace Database
         static DatabaseConnector()
         {
             CreateDatabase();
+            CreateCompanyTable();
         }
 
         public static void CreateDatabase()
@@ -203,6 +204,29 @@ namespace Database
             try
             {
                 cmd.ExecuteNonQuery();
+            }
+            catch (SqlCeException sqlException)
+            {
+                Logger.Logger.Log(sqlException);
+            }
+            databaseConnection.Close();
+        }
+
+        public static void CreateCompanyTable()
+        {
+            Connect();
+            string sql = "create table company (id INT IDENTITY NOT NULL PRIMARY KEY, name nvarchar (200) not null, address nvarchar (200), OIB nvarchar (11))";
+
+            SqlCeCommand cmd = new SqlCeCommand(sql, DatabaseConnection);
+            try
+            {
+                string existSql = "SELECT Count(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'company'";
+                SqlCeCommand existsCmd = new SqlCeCommand(existSql, DatabaseConnector.DatabaseConnection);
+                existsCmd.CommandType = CommandType.Text;
+                int count = (int)existsCmd.ExecuteScalar();
+                if(!count.Equals(1)){
+                    cmd.ExecuteNonQuery();
+                }                
             }
             catch (SqlCeException sqlException)
             {

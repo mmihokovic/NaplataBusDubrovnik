@@ -22,5 +22,8 @@ namespace NaplataBusDubrovnik
         public static AdministrationAddUser AdministrationAddUser { get; set; }
         public static AdministrationSubscribers AdministrationSubscribers { get; set; }
         public static AdministrationAddSubscriber AdministrationAddSubscriber { get; set; }
+        public static R1Form R1Form { get; set; }
+        public static AdministrationR1 AdministrationR1 { get; set; }
+        public static AdministrationR1AddCompany AdministrationR1AddCompany { get; set; }
     }
 }

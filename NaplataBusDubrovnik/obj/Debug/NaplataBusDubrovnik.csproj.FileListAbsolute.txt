@@ -282,3 +282,39 @@ C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\NaplataBusDubrovnik\bin\Debug\Model.pdb
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\NaplataBusDubrovnik\bin\Debug\Database.pdb
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.Administration.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationAddSubscriber.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationAddUser.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationCharge.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationSubscribers.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationUsers.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.ChargeRegularUser.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.ChargeSubscriber.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.ChargeTickets.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.Login.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.Properties.Resources.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.csproj.GenerateResource.Cache
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.exe
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\NaplataBusDubrovnik.exe
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\NaplataBusDubrovnik.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Controller.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Logger.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Model.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\ZebraBluetoothAdapter.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Bluebird.Barcode.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\System.Data.SqlServerCe.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\ZSDK_API.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Database.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\InTheHand.Net.Personal.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Logger.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Controller.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Model.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\Database.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.pdb
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.R1Form.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationR1.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationR1AddCompany.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\NaplataBusDubrovnik.AdministrationR1.hr.resources
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\bin\Debug\hr\NaplataBusDubrovnik.resources.dll
+C:\sources\NaplataBusDubrovnik\NaplataBusDubrovnik\obj\Debug\hr\NaplataBusDubrovnik.resources.dll

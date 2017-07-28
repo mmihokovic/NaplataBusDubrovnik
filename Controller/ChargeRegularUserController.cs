@@ -88,7 +88,7 @@ namespace Controller
             Database.Tickets.AddTicket(ticket);
             ticket.TicketCount = CounterController.GetTicketCount();
 
-            CheckOutTicket checkOutTicket = new CheckOutTicket(ticket);
+            CheckOutTicket checkOutTicket = new CheckOutTicket(ticket,  null);
             Shared.Worker.Print(checkOutTicket);
             Shared.Worker.Print(checkOutTicket);
             Tickets.AddLogOutTicket(LoginController.LoggedInUser.Username,
@@ -97,7 +97,7 @@ namespace Controller
             CounterController.IncrementCounter();
         }
 
-        public static void CheckOut(String licencePlate)
+        public static void CheckOut(String licencePlate, Company company)
         {
             if (!Controller.ChargeRegularUserController.HasInternet())
             {
@@ -152,7 +152,7 @@ namespace Controller
             Database.Tickets.UpdateTicket(ticket);
             ticket.TicketCount = CounterController.GetTicketCount();
 
-            CheckOutTicket checkOutTicket = new CheckOutTicket(ticket);
+            CheckOutTicket checkOutTicket = new CheckOutTicket(ticket, company);
             Shared.Worker.Print(checkOutTicket);
             Shared.Worker.Print(checkOutTicket);
             Tickets.AddLogOutTicket(LoginController.LoggedInUser.Username, 
@@ -185,9 +185,10 @@ namespace Controller
             }
 
             if (Shared.StartCheckOut != null)
-                Shared.StartCheckOut(new ChargeRegularUserData()
+                Shared.StartCheckOut(new ChargeUserData()
                 {
-                    LicencePlate = licencePlate
+                    LicencePlate = licencePlate,
+                    ChargeSource = ChargeSourceEnum.ChargeRegularUser
                 });
             else
             {

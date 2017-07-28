@@ -56,7 +56,7 @@ namespace Controller
             Shared.Worker.Print(checkOutTicket);
         }
 
-        public static void ChargeSubscription(String licencePlate, int months, DateTime validTo)
+        public static void ChargeSubscription(String licencePlate, int months, DateTime validTo, Company company)
         {
              if (!Controller.ChargeRegularUserController.HasInternet())
             {
@@ -87,7 +87,7 @@ namespace Controller
                 ZIK = "e4d909c290d0fb1ca068ffaddf22cbd0";
             }
             SubscriberAddTicket addSubscriberTicket = new SubscriberAddTicket(licencePlate, vehicle.VehicleType,
-                months, validTo, charged, chargeTax, chargeBase, username, JIR, ZIK, CounterController.GetTicketCount());
+                months, validTo, charged, chargeTax, chargeBase, username, JIR, ZIK, CounterController.GetTicketCount(), company);
 
             
 

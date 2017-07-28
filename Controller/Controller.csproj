@@ -82,9 +82,10 @@
     <Compile Include="barcode\BarcodeReadType.cs" />
     <Compile Include="barcode\BarcodeType.cs" />
     <Compile Include="ChargeRegularUserController.cs" />
-    <Compile Include="ChargeRegularUserData.cs" />
+    <Compile Include="ChargeUserData.cs" />
     <Compile Include="ChargesController.cs" />
     <Compile Include="ChargeSubscriberController.cs" />
+    <Compile Include="CompaniesController.cs" />
     <Compile Include="CounterController.cs" />
     <Compile Include="Fiskalizacija\CentralniInformacijskiSustav.cs" />
     <Compile Include="Fiskalizacija\CentralniInformacijskiSustavEventArgs.cs" />

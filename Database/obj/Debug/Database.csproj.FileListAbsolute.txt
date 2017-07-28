@@ -94,3 +94,15 @@ C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\Database.dll
 C:\Documents and Settings\Administrator\Desktop\dubrovnik\NaplataBusDubrovnik - 26.01.2017\Database\obj\Debug\Database.pdb
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\db.sdf
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\obj\Database1.sdf
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Database.dll
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Database.pdb
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Logger.dll
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Model.dll
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\System.Data.SqlServerCe.dll
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Model.pdb
+C:\sources\NaplataBusDubrovnik\Database\bin\Debug\Logger.pdb
+C:\sources\NaplataBusDubrovnik\Database\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\NaplataBusDubrovnik\Database\obj\Debug\Database.dll
+C:\sources\NaplataBusDubrovnik\Database\obj\Debug\Database.pdb

@@ -103,5 +103,23 @@ namespace NaplataBusDubrovnik
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+             try
+            {
+                if (Forms.AdministrationR1 == null)
+                {
+                    Forms.AdministrationR1 = new AdministrationR1();
+                }
+                Forms.AdministrationR1.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                Logger.Logger.Log(ex);
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

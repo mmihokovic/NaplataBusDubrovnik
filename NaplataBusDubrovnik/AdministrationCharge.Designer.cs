@@ -29,8 +29,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdministrationCharge));
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.menuItem1 = new System.Windows.Forms.MenuItem();
+            this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.TicketTypeBox = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.VehicleTypeBox = new System.Windows.Forms.ComboBox();
@@ -40,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -50,91 +51,68 @@
             // 
             // menuItem1
             // 
-            this.menuItem1.Text = "Natrag";
+            resources.ApplyResources(this.menuItem1, "menuItem1");
             this.menuItem1.Click += new System.EventHandler(this.menuItem1_Click);
+            // 
+            // menuItem2
+            // 
+            resources.ApplyResources(this.menuItem2, "menuItem2");
+            this.menuItem2.Click += new System.EventHandler(this.menuItem2_Click);
             // 
             // TicketTypeBox
             // 
-            this.TicketTypeBox.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular);
-            this.TicketTypeBox.Location = new System.Drawing.Point(20, 90);
+            resources.ApplyResources(this.TicketTypeBox, "TicketTypeBox");
             this.TicketTypeBox.Name = "TicketTypeBox";
-            this.TicketTypeBox.Size = new System.Drawing.Size(201, 32);
-            this.TicketTypeBox.TabIndex = 9;
             this.TicketTypeBox.SelectedIndexChanged += new System.EventHandler(this.TicketTypeBox_SelectedIndexChanged);
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(20, 70);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 20);
-            this.label3.Text = "Vrsta karte:";
             // 
             // VehicleTypeBox
             // 
-            this.VehicleTypeBox.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular);
-            this.VehicleTypeBox.Location = new System.Drawing.Point(20, 28);
+            resources.ApplyResources(this.VehicleTypeBox, "VehicleTypeBox");
             this.VehicleTypeBox.Name = "VehicleTypeBox";
-            this.VehicleTypeBox.Size = new System.Drawing.Size(201, 32);
-            this.VehicleTypeBox.TabIndex = 8;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(20, 5);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(201, 20);
-            this.label2.Text = "Vrsta vozila:";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(20, 129);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 20);
-            this.label1.Text = "Ljetna tarifa:";
             this.label1.ParentChanged += new System.EventHandler(this.label1_ParentChanged);
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular);
-            this.comboBox1.Location = new System.Drawing.Point(20, 152);
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(201, 32);
-            this.comboBox1.TabIndex = 13;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(20, 191);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(201, 20);
-            this.label4.Text = "Iznos:";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.ForeColor = System.Drawing.Color.Red;
-            this.textBox1.Location = new System.Drawing.Point(20, 215);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 31);
-            this.textBox1.TabIndex = 15;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(203, 215);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 20);
-            this.label5.Text = "kn";
-            // 
-            // menuItem2
-            // 
-            this.menuItem2.Text = "Spremi";
-            this.menuItem2.Click += new System.EventHandler(this.menuItem2_Click);
             // 
             // AdministrationCharge
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
@@ -146,7 +124,6 @@
             this.Controls.Add(this.label2);
             this.Menu = this.mainMenu1;
             this.Name = "AdministrationCharge";
-            this.Text = "Upravljanje cijenama";
             this.ResumeLayout(false);
 
         }

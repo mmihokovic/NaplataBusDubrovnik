@@ -20,7 +20,7 @@ namespace Controller.printer
         private Graphics graphics;
 
         const int paperWidth = 500;
-        const int paperHeight = 1100;
+        const int paperHeight = 1150;
 
         enum justifications { LEFT, CENTER, RIGHT };
         private justifications justification;
@@ -141,7 +141,7 @@ namespace Controller.printer
 
             if (!printFailed)
             {
-                paper.Save(@"\Storage Card\paper.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
+                paper.Save(@"\Storage Card\paper.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
             }
 
             if (paper != null)

@@ -8,7 +8,7 @@ namespace Controller
 {
    public static class SubscriberController
     {
-       public static void AddSubscriber(string licencePlates, DateTime validTo)
+       public static void AddSubscriber(string licencePlates, DateTime validTo, Company company)
        {
 
            int months = 0;
@@ -29,7 +29,7 @@ namespace Controller
 
            if (months > 0)
            {
-               ChargeSubscriberController.ChargeSubscription(licencePlates, months, newValidTo);
+               ChargeSubscriberController.ChargeSubscription(licencePlates, months, newValidTo, company);
 
            }
        }
@@ -39,7 +39,7 @@ namespace Controller
            return Database.Subscribers.GetSubscriber(licencePlates);
        }
 
-       public static void UpdateSubscriber(Subscriber subscriber)
+       public static void UpdateSubscriber(Subscriber subscriber, Company company)
        {
            Subscriber currentSubscriber = GetSubscriber(subscriber.LicencePlates);
            DateTime oldSubscription = currentSubscriber.ValidTo;
@@ -49,7 +49,7 @@ namespace Controller
 
            if (months > 0)
            {
-               ChargeSubscriberController.ChargeSubscription(subscriber.LicencePlates, months, validTo);
+               ChargeSubscriberController.ChargeSubscription(subscriber.LicencePlates, months, validTo, company);
                Database.Subscribers.UpdateSubscriber(currentSubscriber);
                
            }

@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Companies.cs" />
     <Compile Include="Counter.cs" />
     <Compile Include="DatabaseConnector.cs" />
     <Compile Include="Prices.cs" />

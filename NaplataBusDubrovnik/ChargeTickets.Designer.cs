@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChargeTickets));
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.menuItem1 = new System.Windows.Forms.MenuItem();
             this.button1 = new System.Windows.Forms.Button();
@@ -42,51 +43,36 @@
             // 
             // menuItem1
             // 
-            this.menuItem1.Text = "Odjava";
+            resources.ApplyResources(this.menuItem1, "menuItem1");
             this.menuItem1.Click += new System.EventHandler(this.menuItem1_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(25, 51);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 79);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Korisnik";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(25, 150);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 79);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Pretplatnik";
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular);
-            this.label1.Location = new System.Drawing.Point(25, 16);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 20);
-            this.label1.Text = "Odabir korisnika:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // ChargeTickets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular);
             this.Menu = this.mainMenu1;
             this.Name = "ChargeTickets";
-            this.Text = "Naplata karata";
             this.ResumeLayout(false);
 
         }

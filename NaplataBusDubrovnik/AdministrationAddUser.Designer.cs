@@ -29,7 +29,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdministrationAddUser));
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
+            this.menuItem1 = new System.Windows.Forms.MenuItem();
+            this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.oibBox = new System.Windows.Forms.TextBox();
@@ -42,8 +45,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.usernameBox = new System.Windows.Forms.TextBox();
-            this.menuItem1 = new System.Windows.Forms.MenuItem();
-            this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -51,111 +52,81 @@
             this.mainMenu1.MenuItems.Add(this.menuItem1);
             this.mainMenu1.MenuItems.Add(this.menuItem2);
             // 
-            // passwordBox
-            // 
-            this.passwordBox.Location = new System.Drawing.Point(26, 135);
-            this.passwordBox.MaxLength = 20;
-            this.passwordBox.Name = "passwordBox";
-            this.passwordBox.Size = new System.Drawing.Size(189, 21);
-            this.passwordBox.TabIndex = 25;
-            // 
-            // label6
-            // 
-            this.label6.Location = new System.Drawing.Point(26, 121);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 20);
-            this.label6.Text = "Lozinka:";
-            // 
-            // oibBox
-            // 
-            this.oibBox.Location = new System.Drawing.Point(26, 211);
-            this.oibBox.MaxLength = 13;
-            this.oibBox.Name = "oibBox";
-            this.oibBox.Size = new System.Drawing.Size(189, 21);
-            this.oibBox.TabIndex = 24;
-            // 
-            // label5
-            // 
-            this.label5.Location = new System.Drawing.Point(26, 198);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 20);
-            this.label5.Text = "OIB:";
-            // 
-            // roleBox
-            // 
-            this.roleBox.Location = new System.Drawing.Point(26, 173);
-            this.roleBox.Name = "roleBox";
-            this.roleBox.Size = new System.Drawing.Size(189, 22);
-            this.roleBox.TabIndex = 23;
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(26, 159);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 20);
-            this.label4.Text = "Uloga:";
-            // 
-            // lastNameBox
-            // 
-            this.lastNameBox.Location = new System.Drawing.Point(115, 93);
-            this.lastNameBox.MaxLength = 40;
-            this.lastNameBox.Name = "lastNameBox";
-            this.lastNameBox.Size = new System.Drawing.Size(100, 21);
-            this.lastNameBox.TabIndex = 22;
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(115, 79);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
-            this.label3.Text = "Prezime:";
-            // 
-            // firstNameBox
-            // 
-            this.firstNameBox.Location = new System.Drawing.Point(26, 93);
-            this.firstNameBox.MaxLength = 40;
-            this.firstNameBox.Name = "firstNameBox";
-            this.firstNameBox.Size = new System.Drawing.Size(83, 21);
-            this.firstNameBox.TabIndex = 21;
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(26, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 20);
-            this.label2.Text = "Ime:";
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(26, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 20);
-            this.label1.Text = "Korisničko ime:";
-            // 
-            // usernameBox
-            // 
-            this.usernameBox.Location = new System.Drawing.Point(26, 55);
-            this.usernameBox.MaxLength = 20;
-            this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(189, 21);
-            this.usernameBox.TabIndex = 32;
-            // 
             // menuItem1
             // 
-            this.menuItem1.Text = "Odustani";
+            resources.ApplyResources(this.menuItem1, "menuItem1");
             this.menuItem1.Click += new System.EventHandler(this.menuItem1_Click);
             // 
             // menuItem2
             // 
-            this.menuItem2.Text = "Spremi";
+            resources.ApplyResources(this.menuItem2, "menuItem2");
             this.menuItem2.Click += new System.EventHandler(this.menuItem2_Click);
+            // 
+            // passwordBox
+            // 
+            resources.ApplyResources(this.passwordBox, "passwordBox");
+            this.passwordBox.Name = "passwordBox";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // oibBox
+            // 
+            resources.ApplyResources(this.oibBox, "oibBox");
+            this.oibBox.Name = "oibBox";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // roleBox
+            // 
+            resources.ApplyResources(this.roleBox, "roleBox");
+            this.roleBox.Name = "roleBox";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // lastNameBox
+            // 
+            resources.ApplyResources(this.lastNameBox, "lastNameBox");
+            this.lastNameBox.Name = "lastNameBox";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // firstNameBox
+            // 
+            resources.ApplyResources(this.firstNameBox, "firstNameBox");
+            this.firstNameBox.Name = "firstNameBox";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // usernameBox
+            // 
+            resources.ApplyResources(this.usernameBox, "usernameBox");
+            this.usernameBox.Name = "usernameBox";
             // 
             // AdministrationAddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.usernameBox);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.label6);
@@ -171,7 +142,6 @@
             this.Menu = this.mainMenu1;
             this.MinimizeBox = false;
             this.Name = "AdministrationAddUser";
-            this.Text = "Dodaj operatera";
             this.Load += new System.EventHandler(this.AdministrationAddUser_Load);
             this.ResumeLayout(false);
 

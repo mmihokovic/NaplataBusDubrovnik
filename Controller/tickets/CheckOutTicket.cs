@@ -10,6 +10,7 @@ namespace Controller.tickets
     public class CheckOutTicket : IPrintObject
     {
         private Ticket ticket;
+        private Company company;
 
         public Ticket Ticket
         {
@@ -17,9 +18,10 @@ namespace Controller.tickets
             set { ticket = value; }
         }
 
-        public CheckOutTicket(Ticket ticket)
+        public CheckOutTicket(Ticket ticket, Company company)
         {
             this.ticket = ticket;
+            this.company = company;
         }
 
         public bool Print()
@@ -65,6 +67,18 @@ namespace Controller.tickets
             Controller.Shared.Printer.AddTextLine(ticket.JIR, 0, 0, 40, 930);
             Controller.Shared.Printer.AddTextLine("ZIK: ", 0, 3, 40, 970);
             Controller.Shared.Printer.AddTextLine(ticket.ZIK, 0, 0, 40, 1010);
+
+            if (company != null)
+            {
+                Controller.Shared.Printer.AddHorizontalLine(0, 1020);
+                Controller.Shared.Printer.AddTextLine("R1 racun za: ", 0, 3, 40, 1050);
+                Controller.Shared.Printer.AddTextLine(company.Name + ",", 0, 3, 40, 1090);
+                Controller.Shared.Printer.AddTextLine(company.Address + (String.IsNullOrEmpty(company.OIB) ? "" : ","), 0, 3, 40, 1130);
+                if (!String.IsNullOrEmpty(company.OIB))
+                {
+                    Controller.Shared.Printer.AddTextLine(company.OIB, 0, 3, 40, 1170);
+                }
+            }
 
             bool error = Controller.Shared.Printer.Print();
 
