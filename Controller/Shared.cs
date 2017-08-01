@@ -18,7 +18,7 @@ namespace Controller
 
         static Shared()
         {
-            TestMode = true;
+            TestMode = false;
 
             if (!TestMode)
             {
