@@ -90,11 +90,13 @@ namespace Controller
             try
             {
                 var uri = new Uri(String.Format("http://spinsplit.ddns.net:5000//api/Fiskalizacija/FiskalizirajLukaDubrovnikWinCe?oib={0}&charge={1}&chargeBase={2}&chargeTax={3}&recipientCount={4}&oibOper={5}",
-                    oib, charge, chargeBase, chargeTax, recipientCount, operaterOIB));
+                    oib, charge.ToString(CultureInfo.InvariantCulture), chargeBase.ToString(CultureInfo.InvariantCulture), chargeTax.ToString(CultureInfo.InvariantCulture), recipientCount.ToString(CultureInfo.InvariantCulture), operaterOIB));
 
+                //Logger.Logger.Log(uri.AbsoluteUri);
                 HttpWebRequest request = WebRequest.Create(uri) as HttpWebRequest;
                 request.ContentType = "text/xml; encoding='utf-8'";
-                
+                request.Method = "GET";
+
                 HttpWebResponse response = request.GetResponse() as HttpWebResponse;
 
                 XmlDocument xmlDoc = new XmlDocument();
@@ -103,7 +105,7 @@ namespace Controller
 
                 JIR = xmlDoc.DocumentElement.ChildNodes[0].InnerText;
                 ZIK = xmlDoc.DocumentElement.ChildNodes[1].InnerText;
-                
+
             }
             catch (Exception e)
             {
