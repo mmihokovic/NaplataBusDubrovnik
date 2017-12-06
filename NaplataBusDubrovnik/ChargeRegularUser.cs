@@ -90,7 +90,7 @@ namespace NaplataBusDubrovnik
                 }
                 else
                 {
-                    Controller.ChargeRegularUserController.StartCheckOut("ZG-1234-ST");
+                    Controller.ChargeRegularUserController.StartCheckOut("ZG-1235-ST");
                 }
             }
             catch (Exception ex)

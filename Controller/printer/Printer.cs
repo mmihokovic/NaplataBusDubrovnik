@@ -29,7 +29,7 @@ namespace Controller.printer
             // com port
 
             // Conect to the printer using Bluetooth to serial port (in PDA) and serial connection in SDK 
-            ThePrinterConn = ThePrinterConn = new BluetoothPrinterConnection("0022583bc091");
+            ThePrinterConn = ThePrinterConn = new BluetoothPrinterConnection("0022583bc091", 10000, 1000);
 
 
             //ostale inicijalizacije...
